@@ -1,0 +1,185 @@
+body{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-size: 30px;
+background-color:#B4D0FA  !important  ;
+}
+.header{
+	background-color:#61A1FD   ;
+	height: 90px;
+	color: #fff
+	margin:0;
+}
+.header .navbar-brand{
+	font-size: 40px;
+	color: #fff;
+	font-family: 'Lobster', cursive;
+	padding-left: 250px;
+}
+.navbar-nav {
+	justify-content-end;
+	color: #fff;
+	word-spacing: 2.5px;
+}
+.nav-link{
+	font-size: 20px;
+	text-align: right;
+}
+.nav-link:hover{
+	background-color:#4993FC;
+	opacity: .8;
+}
+.carousel-caption h2{
+	color: #626262 ;
+	text-align: right;
+    padding-right: 55px;
+}
+.carousel-caption h3{
+	color:  #61A1FD;
+	text-align: right;
+}
+.col-lg-6 .display-4{
+	color: #6881FC  ;
+	text-align: justify;
+}
+.col-md-6 .icon{
+	color: #647DF9;
+	font-size: 70px;
+}
+.col-md-6 .text{
+	font-size: 25px;
+	color: #737373;
+}
+/*@media screen and (max-width: 600px) {
+  img {
+  width: 100%;
+  height: auto;
+}
+}*/
+/*/*//* For desktop: */
+/*.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}*/
+/**//***//*/*/
+/*@media only screen and (max-width: 768px) {
+   For mobile phones: 
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+*/
+ /*@media only screen and (max-width: 768px) {
+   For mobile phones: 
+  .team .col-lg-2 {
+width: 2%;
+      }
+    */
+.jumbotron  {
+    padding: 2rem 1rem;
+    margin-bottom: 0 !important;
+    background-color: #e9ecef;
+    border-radius: .3rem;
+}
+.section2{
+	
+	background-size: cover;
+	background-position: center center;
+ 	
+	position: relative;
+	height: 450px;
+	opacity: .7;
+}
+.text2{
+padding-top: 50px;
+padding-left: 50px;
+text-align:left;
+color: #fff;
+background-color: #092410 ;
+opacity: .8;
+}
+.secform .form{
+	margin-right: 20px;
+	
+}
+.secform .sign{
+	margin-bottom: 0 !important;
+}
+.text3{
+padding-top: 30px;
+padding-left: 30px;
+color: #14271C ;
+
+}
+.text3 h2{
+	font-family: 'PT Serif', cursive;
+    color:  #fff ;
+      } 
+ .secform .btn {
+ 	background-color: #4185BF ;
+ 	font-size: 20px;
+	color: #fff;
+	width: 25%;
+	border: 2px solid transparent !important;
+	margin-right: 30px;
+ }
+  .secform .btn:hover {
+ 	background-color: #2E6791  ;
+ 	
+ }
+ .team{
+ 	background-size: cover;
+	background-position: center center;
+ 	margin-top: 0;
+	position: relative;
+	height: 550px;
+	opacity: .5;
+ }
+  .team .ourteam{
+
+ 	margin-bottom: 50px;
+ 	margin-left: 150px;
+  }
+ .team h1{
+   font-family: 'PT Serif', cursive;
+ 	color: #4185BF  ;
+ 	font-size: 80px;
+ 	margin-top: 400px;
+ 	margin-bottom: 50px;
+ 	margin-left: 250px;
+
+ }
+ .imgteam img{
+ 	width: 220px;
+ 	height: 250px;
+ }
+ .footer{
+ 	margin-top: 0;
+ 	height: 230px;
+ 	background-color: #2699ED  ;
+ 	color: #fff;
+
+ }
+ .footer h1{
+   	font-size: 40px;
+	color: #fff;
+	font-family: 'Lobster', cursive
+   }
+   .footer a{
+	text-decoration: none;
+	font-size:50px;
+	color: #EAF5FC  ;
+}
+  .col-lg-4 .iconlink{
+  	
+	font-size: 50px;
+  }
