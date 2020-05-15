@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+	<link rel="stylesheet" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Frank Ruhl Libre&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Vollkorn&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=BioRhyme&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT Serif&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lalezar&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="css/all.css">
+	<link rel="stylesheet" type="text/css" href="js/all.js">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		body{
+			background-color:#B4D0FA;
+		}
+		.header{
+			background-color:#61A1FD;   
+			height: 90px;
+			color: #fff;
+			margin:0;
+		}
+		.header .navbar-brand{
+			font-size: 50px;
+			color: #fff;
+			font-family: 'Vollkorn', cursive;
+			padding-left: 75px;
+		}
+		@media screen and (max-width: 768px) {
+			.navbar-brand a{
+				text-align: left;
+				font-size: 25px;
+				color: #fff;
+				font-family: 'Vollkorn', cursive;
+				padding-left: 10px;
+			}
+		}
+		.navbar-nav {
+			justify-content-end;
+			color: #fff;
+			word-spacing: 2.5px;
+		}
+		.nav-link{
+			font-size: 20px;
+			text-align: right;
+		}
+		.nav-link:hover{
+			background-color :#646565;
+			opacity: .8;
+		}
+		#result{
+			width: 60rem;
+			height: 200px;
+			background-color: #fff;
+			visibility: hidden;
+			margin: 120px;
+			margin-top: 90PX;
+			padding: 15px;
+
+
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-expand-lg justify-content-end  bg-dark navbar-dark">
+			<a class="navbar-brand" href="#" style="font-size: 45px;font-family: 'Vollkorn', cursive; padding-left:30px; ">Pioneers</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+				<ul class="navbar-nav justify-content-end ">
+					<li class="nav-item active">
+						<a class="nav-link text-white" href="file:///C:/Users/user/Music/Desktop/bootstrap%204%20Medical%20Research/index.html">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#About us">About us</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle text-white" href="#Our services" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Our services
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="#Medicial Research">Medicial Research</a>
+							<a class="dropdown-item" href="#Clinic News">Clinic News </a>
+							<a class="dropdown-item" href="#Diagnosis">Diagnosis</a>
+							<a class="dropdown-item" href="#Emergency">Emergency</a>
+						</div>
+						<li class="nav-item">
+							<a class="nav-link text-white" href="#Our Team">Blog  </a>
+						</li>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="file:///C:/Users/user/Music/Desktop/bootstrap%204%20Medical%20Research/contact.html">Contact us </a>
+					</li>
+				</ul>
+			</div>
+		</nav>	
+	</header>
+	<div class="container mt-5">
+		<div class="card shadow p-3 mb-5 bg-white rounded" style="width: 60rem;">
+			<div class="card-body">
+				<form>
+					<h1 class="text-center py-4 font-bold font-up danger-text">Contact us</h1>
+					<div class="form-group">
+						<label for="exampleInputFull Name">Full Name</label>
+						<input type="text" class="form-control" placeholder="Full Name" id="name" >
+					</div>	
+					<div class="form-group">
+						<label for="exampleInputEmail1">Email address</label>
+						<input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Email">
+						<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else</small>
+					</div>
+					<div class="form-group">
+						<label for="exampleInputPassword1">Password</label>
+						<input type="password" class="form-control" id="Password" >
+					</div>
+					<div class="form-group">
+						<label for="exampleFormControlTextarea1">Message</label>
+						<textarea class="form-control" id="Textarea" rows="5"></textarea>
+					</div>
+					<button type="submit" class="btn btn-primary" id="submit" >Submit</button>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div id="result">
+		<h4 id="hs4"></h4>
+
+	</div>
+	<script type="text/javascript">
+		let movies = [];
+        const addMovie = (ev)=>{
+            ev.preventDefault();  //to stop the form submitting
+            let movie = {
+
+            	name: document.getElementById('name').value,
+            	email: document.getElementById('Email').value,
+            	password: document.getElementById('Password').value,
+            	textarea: document.getElementById('Textarea').value
+            }
+            movies.push(movie);
+            for (var i=0;i<movies.length;i++){
+            alert('The registration form completed successfully');
+            document.getElementById("result").style.visibility="visible";
+            document.getElementById("result").innerHTML =  
+            ('<h3>Your Form </h3>'  +"Full Name" + '&nbsp &nbsp'+ ":" + '&nbsp &nbsp'+movies[i].name +"<br>" +"Email" + '&nbsp &nbsp&nbsp &nbsp &nbsp &nbsp'+  ":" + '&nbsp &nbsp'+movies[i].email +"<br>" +"Password"+'&nbsp &nbsp' + ":" +'&nbsp &nbsp'+ movies[i].password + "<br>" +"Message"+'&nbsp &nbsp '+":"+'&nbsp &nbsp'+ movies[i].textarea + "<br>");
+            }
+
+            }
+        document.addEventListener('DOMContentLoaded', ()=>{
+        	document.getElementById('submit').addEventListener('click', addMovie);
+        });
+    </script>
+
+</body>
+</html>
